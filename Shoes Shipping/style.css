@@ -8,33 +8,34 @@
     background: linear-gradient(to right, #000000, #e74c3c);
     color: white;
     text-align: center;
-    padding-block: 10px; 
+    padding-block: 10px;
 }
 
 nav {
     background-color: rgba(0, 0, 0, 1);
     text-align: center;
-    padding-block: 15px;  position: sticky;
+    padding-block: 15px;
+    position: sticky;
     top: 0;
     color: white;
 }
 
-nav > h5 {
+nav>h5 {
     display: inline-block;
     margin-inline: 15px;
- }
+}
 
-nav > input {
+nav>input {
     width: 30%;
     border: none;
     font-size: larger;
 }
 
-nav > input:focus {
+nav>input:focus {
     outline: none;
 }
 
-nav > span {
+nav>span {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 2px;
 }
@@ -47,27 +48,28 @@ nav > span {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    
+
 }
 
-.sale > header {
+.sale>header {
     width: 70%;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 2%;
-    
+
 }
 
 .category-1 {
     padding: 1% 5%;
     background-color: rgba(0, 0, 0, 0.1);
-    
+
 }
 
 .c1_sub {
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.3);
-    margin-block: 10px; color: rgba(0, 0, 0, 0.7);
-    
+    margin-block: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
 }
 
 
@@ -106,12 +108,12 @@ nav > span {
     color: white;
 }
 
-.des > h1 {
+.des>h1 {
     font-size: xx-large;
     margin-bottom: 30px;
 }
 
-.des > p {
+.des>p {
     font-size: large;
     margin-bottom: 50px;
     line-height: 20px;
@@ -131,5 +133,5 @@ nav > span {
     right: 15%;
     top: 25%;
     width: 400px;
-    height: 400px;
+    height: 400px;
 }

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 270px;
+    /* height: 400px; */
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+    background-image: url("rolls_royce_phantom_top_10.webp");
+}
+
+.car-2{
+    background-image: url("most-expensive-cars-2023-bugatti-chiron-luxe-digital-780x520.jpg");
+
+}
+
+.car-3{
+    background-image: url("https://c.ndtvimg.com/2022-01/0d2m0qkg_car_625x300_12_January_22.jpg");
+}
+
+.card h3{
+    padding: 10px;
+    text-align: center;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
